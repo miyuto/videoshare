@@ -4903,3 +4903,22 @@ ol.cactus-breadcrumb {padding-left: 0px;}
 }
 
 .cactus-listing-wrap { max-width: 100% !important }
+
+/* Phần css thêm vào */
+.list_tag li a {
+	display: block;
+    border: 1px solid #E5E5E5;
+    color: #4D4D4D;
+    font-size: 12px;
+	text-align: center;
+	position: relative;
+}
+.list_tag li {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+	width: 100px !important;
+}
+.list_tag li:hover a {
+	background: #79aebe;
+	color: #fff
+}
